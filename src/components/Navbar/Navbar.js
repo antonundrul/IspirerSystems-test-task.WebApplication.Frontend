@@ -17,6 +17,7 @@ const Navbar = (props) => {
                     <NavLink to='/internationalization' className = { navData => navData.isActive ? s.activeLink : s.item }>Интернационализация</NavLink>
                 </div>
             </div>
+
             {/*<Friends friends={store.getState().sidebar.friends}/>*/}
         </nav>
     );
